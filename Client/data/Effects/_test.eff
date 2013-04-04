@@ -1,0 +1,65 @@
+VERTEXSHADER vs = 
+    decl
+    {
+        stream 0;
+        fvf xyz|diffuse;
+    } 
+    asm
+    {
+        vs.1.1
+        ;def c8, 10,10,10,10
+		
+		; Transform to world+view+projection space
+        m4x4 r0, v0, c0
+        
+        ; Store output position
+        mov oPos, r0
+        ; Store output color
+		;mov r2,c8		;cam pos
+		;m4x4 r3,v0,c4	;v0*world matrix
+		;sub r1,r2,r3
+		;mov r1,v0
+		mov r5,c5
+		mov r6,c6
+		add r1,v0,c4
+
+		;dp3 r4, r1, r1
+		;rsq r4, r4.w
+		;rcp r4,r4
+		;mul r1, r1, r4
+		;mov oD0, r1.z
+
+		dp3 r1,r1,r1		;r1.w=r1.x*r1.x+r1.y*r1.y+r1.z*r1.z
+		rsq r1,r1			;1/sqrt(r1^2)
+		rcp r1,r1			;sqrt(r1^2)
+		;mad r4,-r1,r5,r6
+		mul r2,r1,r5
+		;sub r3,r6,r2
+		mov oD0, c6.rgb	;r2.rgb
+
+		;dst r2,r1,c8
+		;dst r2,c5,r0
+		;dst r2,r1,v0
+		;mul r1,r1,r2.y
+		;mov oD0, r2.y
+
+
+		;fog
+		;rcp r1,r0
+		;mov oFog,r1
+		mov oPts,c6.w
+	};
+
+technique t0
+{
+    pass p0
+    {
+        VertexShader = <vs>;
+        
+        CullMode = None;
+
+        ColorArg1[0] = Texture;
+        ColorArg2[0] = Diffuse;
+        ColorOp[0] = SelectArg2;
+    }
+}

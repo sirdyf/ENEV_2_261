@@ -1,0 +1,89 @@
+15:37:14_513_000005f4: Debug: WinMain starting..
+15:37:14_825_000005f4: Debug: WinMain started end
+15:37:14_825_000005f4: Debug: World Init...
+15:37:14_841_000005f4: Debug: ...End World Init
+15:37:14_841_000005f4: Debug: netClient.Init()
+15:37:14_841_000005f4: Debug: d:\WORK\ENEV_2_257\Client\config.ini
+Server:10.71.21.15656
+Client:10.71.21.15657
+15:37:14_841_000005f4: Debug: netClient.Run()
+15:37:14_841_000005f4: Debug: Starting threads...
+
+15:37:14_857_000005f4: Debug: ...thread starting end.
+	Thread1-088D9F10 Thread2-088D9F58
+15:37:14_872_000005f4: Debug: Start Main loop
+15:37:14_982_00000b44: Debug: Thread _send_ Server IP-10.71.21.1port:5656
+15:37:14_997_00000b44: Debug: thread _send_ main loop started, time sleep=500
+15:37:14_997_00000f4c: Debug: _recv_ Client IP-10.71.21.1port:5657 (BIND - ok)
+15:37:14_997_00000f4c: Debug: _recv_ main loop started
+15:37:14_997_00000f4c: Debug: _recv_ Send echo packet to server size=24
+15:37:15_185_00000f4c: Debug(1): _recv_ get data
+15:37:15_185_00000f4c: Debug(1): Recived work msg(128) uin=41
+15:37:15_185_00000f4c: Debug: Client registered. UIN=41
+15:37:15_497_00000b44: Debug(1): _send_ tNetworkClient::SendNetMessage()
+15:37:15_497_00000b44: Debug(1): _send_ data send to10.71.21.1 port:5656
+15:37:15_888_00000f4c: Debug(1): _recv_ get data
+15:37:15_888_00000f4c: Debug(1): Recived work msg(128) uin=41
+15:37:15_888_00000f4c: Debug(1): Ok.Recv message for me
+15:37:15_998_00000b44: Debug(1): _send_ tNetworkClient::SendNetMessage()
+15:37:15_998_00000b44: Debug(1): _send_ data send to10.71.21.1 port:5656
+15:37:16_498_00000b44: Debug(1): _send_ tNetworkClient::SendNetMessage()
+15:37:16_498_00000b44: Debug(1): _send_ data send to10.71.21.1 port:5656
+15:37:16_576_00000f4c: Debug(1): _recv_ get data
+15:37:16_576_00000f4c: Debug(1): Recived work msg(128) uin=41
+15:37:16_576_00000f4c: Debug(1): Ok.Recv message for me
+15:37:16_592_00000f4c: Debug: _recv_ Send echo packet to server size=24
+15:37:16_998_00000b44: Debug(1): _send_ tNetworkClient::SendNetMessage()
+15:37:16_998_00000b44: Debug(1): _send_ data send to10.71.21.1 port:5656
+15:37:17_280_00000f4c: Debug(1): _recv_ get data
+15:37:17_280_00000f4c: Debug(1): Recived work msg(128) uin=41
+15:37:17_280_00000f4c: Debug(1): Ok.Recv message for me
+15:37:17_498_00000b44: Debug(1): _send_ tNetworkClient::SendNetMessage()
+15:37:17_498_00000b44: Debug(1): _send_ data send to10.71.21.1 port:5656
+15:37:17_983_00000f4c: Debug(1): _recv_ get data
+15:37:17_983_00000f4c: Debug(1): Recived work msg(128) uin=41
+15:37:17_983_00000f4c: Debug(1): Ok.Recv message for me
+15:37:17_983_00000f4c: Debug: _recv_ Send echo packet to server size=24
+15:37:17_999_00000b44: Debug(1): _send_ tNetworkClient::SendNetMessage()
+15:37:17_999_00000b44: Debug(1): _send_ data send to10.71.21.1 port:5656
+15:37:18_499_00000b44: Debug(1): _send_ tNetworkClient::SendNetMessage()
+15:37:18_499_00000b44: Debug(1): _send_ data send to10.71.21.1 port:5656
+15:37:18_687_00000f4c: Debug(1): _recv_ get data
+15:37:18_687_00000f4c: Debug(1): Recived work msg(128) uin=41
+15:37:18_687_00000f4c: Debug(1): Ok.Recv message for me
+15:37:18_984_00000b44: Debug(1): _send_ tNetworkClient::SendNetMessage()
+15:37:18_984_00000b44: Debug(1): _send_ data send to10.71.21.1 port:5656
+15:37:19_374_00000f4c: Debug(1): _recv_ get data
+15:37:19_374_00000f4c: Debug(1): Recived work msg(128) uin=41
+15:37:19_374_00000f4c: Debug(1): Ok.Recv message for me
+15:37:19_390_00000f4c: Debug: _recv_ Send echo packet to server size=24
+15:37:19_484_00000b44: Debug(1): _send_ tNetworkClient::SendNetMessage()
+15:37:19_484_00000b44: Debug(1): _send_ data send to10.71.21.1 port:5656
+15:37:19_984_00000b44: Debug(1): _send_ tNetworkClient::SendNetMessage()
+15:37:19_984_00000b44: Debug(1): _send_ data send to10.71.21.1 port:5656
+15:37:20_078_00000f4c: Debug(1): _recv_ get data
+15:37:20_078_00000f4c: Debug(1): Recived work msg(128) uin=41
+15:37:20_078_00000f4c: Debug(1): Ok.Recv message for me
+15:37:20_484_00000b44: Debug(1): _send_ tNetworkClient::SendNetMessage()
+15:37:20_484_00000b44: Debug(1): _send_ data send to10.71.21.1 port:5656
+15:37:20_781_00000f4c: Debug(1): _recv_ get data
+15:37:20_781_00000f4c: Debug(1): Recived work msg(128) uin=41
+15:37:20_781_00000f4c: Debug(1): Ok.Recv message for me
+15:37:20_781_00000f4c: Debug: _recv_ Send echo packet to server size=24
+15:37:20_985_00000b44: Debug(1): _send_ tNetworkClient::SendNetMessage()
+15:37:20_985_00000b44: Debug(1): _send_ data send to10.71.21.1 port:5656
+15:37:21_141_000005f4: Debug: End Main loop
+15:37:21_141_000005f4: Debug: World->Destroy()
+15:37:21_141_000005f4: Debug: netClient.Stop()
+15:37:21_141_000005f4: Debug: Wait threads end..
+15:37:21_485_00000f4c: Debug(1): _recv_ get data
+15:37:21_485_00000f4c: Debug(1): Recived work msg(128) uin=41
+15:37:21_485_00000f4c: Debug(1): Ok.Recv message for me
+15:37:22_986_00000b44: WARNING: Try unlock recv thread-send 0 byte..
+15:37:22_986_000005f4: Debug: ..thread ended
+15:37:22_986_000005f4: Debug: netClient.Release()
+15:37:22_986_000005f4: WARNING: WSACleanup()!
+15:37:23_126_000005f4: Debug: Scene deleted
+15:37:23_126_000005f4: Debug: World destroy
+15:37:23_158_000005f4: Debug: Windows destroy
+15:37:23_158_000005f4: Debug: EXIT

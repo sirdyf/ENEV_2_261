@@ -1,0 +1,80 @@
+16:14:24_837_00000840: Debug: WinMain starting..
+16:14:25_228_00000840: Debug: WinMain started end
+16:14:25_228_00000840: Debug: World Init...
+16:14:25_259_00000840: Debug: ...End World Init
+16:14:25_259_00000840: Debug: netClient.Init()
+16:14:25_259_00000840: Debug: d:\WORK\ENEV_2_257\Client\config.ini
+Server:10.71.21.15656
+Client:10.71.21.15657
+16:14:25_259_00000840: Debug: netClient.Run()
+16:14:25_259_00000840: Debug: Starting threads...
+
+16:14:25_275_00000840: Debug: ...thread starting end.
+	Thread1-088D9F10 Thread2-088D9F58
+16:14:25_290_00000840: Debug: Start Main loop
+16:14:25_431_000009f4: Debug: Thread _send_ Server IP-10.71.21.1port:5656
+16:14:25_447_000009f4: Debug: thread _send_ main loop started, time sleep=500
+16:14:25_462_00000dd0: Debug: _recv_ Client IP-10.71.21.1port:5657 (BIND - ok)
+16:14:25_462_00000dd0: Debug: _recv_ main loop started
+16:14:25_462_00000dd0: Debug: _recv_ Send echo packet to server size=24
+16:14:26_462_00000dd0: WARNING: Server not responding,waiting...
+16:14:26_462_00000dd0: Debug: _recv_ Send echo packet to server size=24
+16:14:27_462_00000dd0: WARNING: Server not responding,waiting...
+16:14:27_478_00000dd0: Debug: _recv_ Send echo packet to server size=24
+16:14:28_478_00000dd0: WARNING: Server not responding,waiting...
+16:14:28_478_00000dd0: Debug: _recv_ Send echo packet to server size=24
+16:14:29_478_00000dd0: WARNING: Server not responding,waiting...
+16:14:29_494_00000dd0: Debug: _recv_ Send echo packet to server size=24
+16:14:30_494_00000dd0: WARNING: Server not responding,waiting...
+16:14:30_494_00000dd0: Debug: _recv_ Send echo packet to server size=24
+16:14:31_494_00000dd0: WARNING: Server not responding,waiting...
+16:14:31_494_00000dd0: Debug: _recv_ Send echo packet to server size=24
+16:14:32_494_00000dd0: WARNING: Server not responding,waiting...
+16:14:32_509_00000dd0: Debug: _recv_ Send echo packet to server size=24
+16:14:33_509_00000dd0: WARNING: Server not responding,waiting...
+16:14:33_509_00000dd0: Debug: _recv_ Send echo packet to server size=24
+16:14:34_509_00000dd0: WARNING: Server not responding,waiting...
+16:14:34_525_00000dd0: Debug: _recv_ Send echo packet to server size=24
+16:14:35_525_00000dd0: WARNING: Server not responding,waiting...
+16:14:35_525_00000dd0: Debug: _recv_ Send echo packet to server size=24
+16:14:36_525_00000dd0: WARNING: Server not responding,waiting...
+16:14:36_525_00000dd0: Debug: _recv_ Send echo packet to server size=24
+16:14:37_525_00000dd0: WARNING: Server not responding,waiting...
+16:14:37_541_00000dd0: Debug: _recv_ Send echo packet to server size=24
+16:14:38_541_00000dd0: WARNING: Server not responding,waiting...
+16:14:38_541_00000dd0: Debug: _recv_ Send echo packet to server size=24
+16:14:39_541_00000dd0: WARNING: Server not responding,waiting...
+16:14:39_556_00000dd0: Debug: _recv_ Send echo packet to server size=24
+16:14:40_557_00000dd0: WARNING: Server not responding,waiting...
+16:14:40_557_00000dd0: Debug: _recv_ Send echo packet to server size=24
+16:14:41_557_00000dd0: WARNING: Server not responding,waiting...
+16:14:41_557_00000dd0: Debug: _recv_ Send echo packet to server size=24
+16:14:42_557_00000dd0: WARNING: Server not responding,waiting...
+16:14:42_572_00000dd0: Debug: _recv_ Send echo packet to server size=24
+16:14:43_572_00000dd0: WARNING: Server not responding,waiting...
+16:14:43_572_00000dd0: Debug: _recv_ Send echo packet to server size=24
+16:14:44_572_00000dd0: WARNING: Server not responding,waiting...
+16:14:44_572_00000dd0: Debug: _recv_ Send echo packet to server size=24
+16:14:45_619_00000dd0: WARNING: Server not responding,waiting...
+16:14:45_619_00000dd0: Debug: _recv_ Send echo packet to server size=24
+16:14:46_619_00000dd0: WARNING: Server not responding,waiting...
+16:14:46_619_00000dd0: Debug: _recv_ Send echo packet to server size=24
+16:14:46_729_00000dd0: Debug: Client registered. UIN=41
+16:14:48_135_00000dd0: Debug: _recv_ Send echo packet to server size=24
+16:14:49_541_00000dd0: Debug: _recv_ Send echo packet to server size=24
+16:14:50_932_00000dd0: Debug: _recv_ Send echo packet to server size=24
+16:14:52_338_00000dd0: Debug: _recv_ Send echo packet to server size=24
+16:14:53_729_00000dd0: Debug: _recv_ Send echo packet to server size=24
+16:14:55_135_00000dd0: Debug: _recv_ Send echo packet to server size=24
+16:14:56_291_00000840: Debug: End Main loop
+16:14:56_291_00000840: Debug: World->Destroy()
+16:14:56_291_00000840: Debug: netClient.Stop()
+16:14:56_291_00000840: Debug: Wait threads end..
+16:14:57_916_000009f4: WARNING: Try unlock recv thread-send 0 byte..
+16:14:57_916_00000840: Debug: ..thread ended
+16:14:57_916_00000840: Debug: netClient.Release()
+16:14:57_916_00000840: WARNING: WSACleanup()!
+16:14:58_026_00000840: Debug: Scene deleted
+16:14:58_026_00000840: Debug: World destroy
+16:14:58_041_00000840: Debug: Windows destroy
+16:14:58_041_00000840: Debug: EXIT

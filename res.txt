@@ -1,0 +1,23 @@
+"В мой мозг заложена программа на саморазвитие. Мозг сам развивается и совершенствуется. Формируются новые связи между полушариями. Оба полушария работают четко, слаженно, синхронно. У меня гениальный мозг. Мне в голову приходят гениальные идеи. Я мыслю нестандартно. Резервы мозга включаются в работу. Мозг активен на девяносто процентов. У меня мощный интеллект и с каждым днем все мощнее. Я легко решаю любые проблемы. Мое сознание проясняется. Для меня все прозрачно и просто. Я все ясно понимаю и ясно излагаю".
+-------
+http://forum.sources.ru/index.php?showtopic=251942 - сетевой двиг
+http://www.projectdarkstar.com/
+http://alenacpp.blogspot.com/
+
+http://www.oszone.net/12535/-vs2010
+
+http://www.gillius.org/gne/index.htm Gm Net Engine
+http://www.alhem.net/Sockets/tutorial/using5a.html
+
+http://www.cplusplus.com/reference/iostream/manipulators/setw/
+
+http://www.rsdn.ru/article/cpp/fastdelegate.xml - указатели на ф-цию
+
+http://users.msu.dubna.ru/~ovg/c++course/ - CPP учебник
+
+Философия C++. Практическое программирование.
+Эккель Брюс, Эллисон Ч. 
+http://www.piter-press.ru/book.phtml?978546900043
+
+Бьярн Страустрап. Введение в язык Си++, 691 Кб
+http://sunhe.jinr.ru/serg/docs/cpp/

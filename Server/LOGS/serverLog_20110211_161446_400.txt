@@ -1,0 +1,16 @@
+16:14:46_400_000007e8: Debug: new AI_Global()
+16:14:46_400_000007e8: Debug: AI Global init
+
+16:14:46_416_000007e8: Debug: netServer.Init()
+16:14:46_416_000007e8: Debug: tNetworkServer::Init()
+16:14:46_416_000007e8: Debug: d:\WORK\ENEV_2_257\Server\config.ini10.71.21.1
+16:14:46_416_000007e8: Debug: WSAStartup() - OK
+16:14:46_416_000007e8: Debug: netServer.Run()
+16:14:46_416_000007e8: Debug: 	Thread starting..
+16:14:46_416_000007e8: Debug: 	..threads started
+16:14:46_432_000007e8: Debug: Enter main loop
+16:14:46_463_00000cec: Debug: Thread for _recv_ data started.
+16:14:46_541_00000cec: Debug: 	Interface:10.71.21.1 Server port-5656(BIND)
+16:14:46_635_00000cec: Debug: New client from:10.71.21.1 port:5657
+16:14:46_713_00000cc8: Debug: Thread for _send_ data started.
+

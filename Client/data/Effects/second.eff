@@ -1,0 +1,48 @@
+VERTEXSHADER vs = 
+    decl
+    {
+        stream 0;
+        fvf xyz|diffuse;
+    } 
+    asm
+    {
+        vs.1.0
+        ;---------------------------------------------------------------
+        ; Constants specified by the app
+        ;    c0-c3   = normal matrix
+        ;    c4-c7   = world+view+projection matrix
+        ;
+        ; Vertex components (as specified in the vertex DECL)
+        ;    v0      = Position
+        ;    v3      = Normal
+        ;    v5      = Color
+        ;    v7      = TexCoord0
+        ;---------------------------------------------------------------
+        
+        ;---------------------------------------------------------------
+        ; Vertex transformation
+        ;---------------------------------------------------------------
+        
+        ; Transform to world+view+projection space
+        m4x4 r0, v0, c4
+        
+        ; Store output position
+        mov oPos, r0
+        ; Store output color
+        mov oD0, v5
+    };
+
+technique t0
+{
+    pass p0
+    {
+        VertexShader = <vs>;
+        
+        CullMode = None;
+
+        ColorArg1[0] = Texture;
+        ColorArg2[0] = Diffuse;
+        ColorOp[0] = SelectArg2;
+    }
+}
+        

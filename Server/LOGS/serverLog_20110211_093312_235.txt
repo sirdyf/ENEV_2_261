@@ -1,0 +1,123 @@
+09:33:12_235_00000104: Debug: new AI_Global()
+09:33:12_235_00000104: Debug: AI Global init
+
+09:33:12_235_00000104: Debug: netServer.Init()
+09:33:12_235_00000104: Debug: tNetworkServer::Init()
+09:33:12_235_00000104: Debug: d:\WORK\ENEV_2_257\Server\config.ini10.71.21.1
+09:33:12_250_00000104: Debug: WSAStartup() - OK
+09:33:12_250_00000104: Debug: netServer.Run()
+09:33:12_250_00000104: Debug: 	Thread starting..
+09:33:12_250_00000104: Debug: 	..threads started
+09:33:12_266_00000104: Debug: Enter main loop
+09:33:12_297_000009c4: Debug: Thread for _recv_ data started.
+09:33:12_375_000009c4: Debug: 	Interface:10.71.21.1 Server port-5656(BIND)
+09:33:12_546_00000a88: Debug: Thread for _send_ data started.
+
+09:33:12_562_00000a88: Debug(1): tNetworkServer::GetNetworkMessage() i=0
+09:33:13_263_00000a88: Debug(1): tNetworkServer::GetNetworkMessage() i=0
+09:33:13_964_00000a88: Debug(1): tNetworkServer::GetNetworkMessage() i=0
+09:33:14_650_00000a88: Debug(1): tNetworkServer::GetNetworkMessage() i=0
+09:33:15_351_00000a88: Debug(1): tNetworkServer::GetNetworkMessage() i=0
+09:33:16_053_00000a88: Debug(1): tNetworkServer::GetNetworkMessage() i=0
+09:33:16_754_00000a88: Debug(1): tNetworkServer::GetNetworkMessage() i=0
+09:33:17_439_00000a88: Debug(1): tNetworkServer::GetNetworkMessage() i=0
+09:33:18_141_00000a88: Debug(1): tNetworkServer::GetNetworkMessage() i=0
+09:33:18_842_00000a88: Debug(1): tNetworkServer::GetNetworkMessage() i=0
+09:33:19_543_00000a88: Debug(1): tNetworkServer::GetNetworkMessage() i=0
+09:33:20_229_00000a88: Debug(1): tNetworkServer::GetNetworkMessage() i=0
+09:33:20_930_00000a88: Debug(1): tNetworkServer::GetNetworkMessage() i=0
+09:33:21_631_00000a88: Debug(1): tNetworkServer::GetNetworkMessage() i=0
+09:33:22_333_00000a88: Debug(1): tNetworkServer::GetNetworkMessage() i=0
+09:33:23_018_00000a88: Debug(1): tNetworkServer::GetNetworkMessage() i=0
+09:33:23_719_00000a88: Debug(1): tNetworkServer::GetNetworkMessage() i=0
+09:33:24_421_00000a88: Debug(1): tNetworkServer::GetNetworkMessage() i=0
+09:33:25_122_00000a88: Debug(1): tNetworkServer::GetNetworkMessage() i=0
+09:33:25_808_00000a88: Debug(1): tNetworkServer::GetNetworkMessage() i=0
+09:33:26_509_00000a88: Debug(1): tNetworkServer::GetNetworkMessage() i=0
+09:33:27_210_00000a88: Debug(1): tNetworkServer::GetNetworkMessage() i=0
+09:33:27_288_000009c4: Debug(1): _recv_ data from:10.71.21.1 port:5657 size:24
+09:33:27_288_000009c4: Debug(1): tNetworkServer::CheckEchoClient()
+09:33:27_288_000009c4: Debug(1): Echo(126)
+09:33:27_288_000009c4: Debug: New client from:10.71.21.1 port:5657
+09:33:27_911_00000a88: Debug(1): tNetworkServer::GetNetworkMessage() i=0
+09:33:27_911_00000a88: Debug(1): typeOfService=128
+09:33:27_911_00000a88: Debug(1): client data size:0+tNetInfo:24+sockaddr:16=40
+09:33:27_911_00000a88: Debug(1): _send_ data to:10.71.21.1 port:5657 size:24
+09:33:27_911_00000a88: Debug(1): tNetworkServer::GetNetworkMessage() i=5
+09:33:28_597_00000a88: Debug(1): tNetworkServer::GetNetworkMessage() i=0
+09:33:28_597_00000a88: Debug(1): typeOfService=128
+09:33:28_597_00000a88: Debug(1): client data size:0+tNetInfo:24+sockaddr:16=40
+09:33:28_597_00000a88: Debug(1): _send_ data to:10.71.21.1 port:5657 size:24
+09:33:28_597_00000a88: Debug(1): tNetworkServer::GetNetworkMessage() i=5
+09:33:28_613_000009c4: Debug(1): _recv_ data from:10.71.21.1 port:5657 size:24
+09:33:28_613_000009c4: Debug(1): tNetworkServer::CheckEchoClient()
+09:33:28_613_000009c4: Debug(1): Echo(126)
+09:33:28_613_000009c4: Debug(1): Registered client.
+09:33:29_298_00000a88: Debug(1): tNetworkServer::GetNetworkMessage() i=0
+09:33:29_298_00000a88: Debug(1): typeOfService=128
+09:33:29_298_00000a88: Debug(1): client data size:0+tNetInfo:24+sockaddr:16=40
+09:33:29_298_00000a88: Debug(1): _send_ data to:10.71.21.1 port:5657 size:24
+09:33:29_298_00000a88: Debug(1): tNetworkServer::GetNetworkMessage() i=5
+09:33:30_000_00000a88: Debug(1): tNetworkServer::GetNetworkMessage() i=0
+09:33:30_000_00000a88: Debug(1): typeOfService=128
+09:33:30_000_00000a88: Debug(1): client data size:0+tNetInfo:24+sockaddr:16=40
+09:33:30_000_00000a88: Debug(1): _send_ data to:10.71.21.1 port:5657 size:24
+09:33:30_000_00000a88: Debug(1): tNetworkServer::GetNetworkMessage() i=5
+09:33:30_000_000009c4: Debug(1): _recv_ data from:10.71.21.1 port:5657 size:24
+09:33:30_000_000009c4: Debug(1): tNetworkServer::CheckEchoClient()
+09:33:30_000_000009c4: Debug(1): Echo(126)
+09:33:30_000_000009c4: Debug(1): Registered client.
+09:33:30_701_00000a88: Debug(1): tNetworkServer::GetNetworkMessage() i=0
+09:33:30_701_00000a88: Debug(1): typeOfService=128
+09:33:30_701_00000a88: Debug(1): client data size:0+tNetInfo:24+sockaddr:16=40
+09:33:30_701_00000a88: Debug(1): _send_ data to:10.71.21.1 port:5657 size:24
+09:33:30_701_00000a88: Debug(1): tNetworkServer::GetNetworkMessage() i=5
+09:33:31_386_00000a88: Debug(1): tNetworkServer::GetNetworkMessage() i=0
+09:33:31_386_00000a88: Debug(1): typeOfService=128
+09:33:31_386_00000a88: Debug(1): client data size:0+tNetInfo:24+sockaddr:16=40
+09:33:31_386_00000a88: Debug(1): _send_ data to:10.71.21.1 port:5657 size:24
+09:33:31_386_00000a88: Debug(1): tNetworkServer::GetNetworkMessage() i=5
+09:33:31_402_000009c4: Debug(1): _recv_ data from:10.71.21.1 port:5657 size:24
+09:33:31_402_000009c4: Debug(1): tNetworkServer::CheckEchoClient()
+09:33:31_402_000009c4: Debug(1): Echo(126)
+09:33:31_402_000009c4: Debug(1): Registered client.
+09:33:32_088_00000a88: Debug(1): tNetworkServer::GetNetworkMessage() i=0
+09:33:32_088_00000a88: Debug(1): typeOfService=128
+09:33:32_088_00000a88: Debug(1): client data size:0+tNetInfo:24+sockaddr:16=40
+09:33:32_088_00000a88: Debug(1): _send_ data to:10.71.21.1 port:5657 size:24
+09:33:32_088_00000a88: Debug(1): tNetworkServer::GetNetworkMessage() i=5
+09:33:32_789_00000a88: Debug(1): tNetworkServer::GetNetworkMessage() i=0
+09:33:32_789_00000a88: Debug(1): typeOfService=128
+09:33:32_789_00000a88: Debug(1): client data size:0+tNetInfo:24+sockaddr:16=40
+09:33:32_789_00000a88: Debug(1): _send_ data to:10.71.21.1 port:5657 size:24
+09:33:32_789_00000a88: Debug(1): tNetworkServer::GetNetworkMessage() i=5
+09:33:33_490_00000a88: Debug(1): tNetworkServer::GetNetworkMessage() i=0
+09:33:33_490_00000a88: Debug(1): typeOfService=128
+09:33:33_490_00000a88: Debug(1): client data size:0+tNetInfo:24+sockaddr:16=40
+09:33:33_490_00000a88: Debug(1): _send_ data to:10.71.21.1 port:5657 size:24
+09:33:33_490_00000a88: Debug(1): tNetworkServer::GetNetworkMessage() i=5
+09:33:34_176_00000a88: Debug(1): tNetworkServer::GetNetworkMessage() i=0
+09:33:34_176_00000a88: Debug(1): typeOfService=128
+09:33:34_176_00000a88: Debug(1): client data size:0+tNetInfo:24+sockaddr:16=40
+09:33:34_176_00000a88: Debug(1): _send_ data to:10.71.21.1 port:5657 size:24
+09:33:34_176_00000a88: Debug(1): tNetworkServer::GetNetworkMessage() i=5
+09:33:34_877_00000a88: Debug(1): tNetworkServer::GetNetworkMessage() i=0
+09:33:34_877_00000a88: Debug(1): typeOfService=128
+09:33:34_877_00000a88: Debug(1): client data size:0+tNetInfo:24+sockaddr:16=40
+09:33:34_877_00000a88: Debug(1): _send_ data to:10.71.21.1 port:5657 size:24
+09:33:34_877_00000a88: Debug(1): tNetworkServer::GetNetworkMessage() i=5
+09:33:35_578_00000a88: Debug(1): tNetworkServer::GetNetworkMessage() i=0
+09:33:35_578_00000a88: Debug(1): typeOfService=128
+09:33:35_578_00000a88: Debug(1): client data size:0+tNetInfo:24+sockaddr:16=40
+09:33:35_578_00000a88: Debug(1): _send_ data to:10.71.21.1 port:5657 size:24
+09:33:35_578_00000a88: Debug(1): tNetworkServer::GetNetworkMessage() i=5
+09:33:36_280_00000a88: Debug(1): tNetworkServer::GetNetworkMessage() i=0
+09:33:36_280_00000a88: Debug(1): typeOfService=128
+09:33:36_280_00000a88: Debug(1): client data size:0+tNetInfo:24+sockaddr:16=40
+09:33:36_280_00000a88: Debug(1): _send_ data to:10.71.21.1 port:5657 size:24
+09:33:36_280_00000a88: Debug(1): tNetworkServer::GetNetworkMessage() i=5
+09:33:36_965_00000a88: Debug(1): tNetworkServer::GetNetworkMessage() i=0
+09:33:36_965_00000a88: Debug(1): typeOfService=128
+09:33:36_965_00000a88: Debug(1): client data size:0+tNetInfo:24+sockaddr:16=40
+09:33:36_965_00000a88: Debug(1): _send_ data to:10.71.21.1 port:5657 size:24
+09:33:36_965_00000a88: Debug(1): tNetworkServer::GetNetworkMessage() i=5

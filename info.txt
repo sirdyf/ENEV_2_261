@@ -1,0 +1,103 @@
+При обращении нового клиента,сервер запоминает его адрес и выдает УИН.
+Сервер идентифицирует клиентов по адресу и использует УИН для этого адреса.
+Клиент в 100 режиме должен получить УИН и использовать его для идентификации
+себя среди объектов.
+
+Вот вам два примера, я думаю всё станет ясно.
+сервер:#include    <iostream>
+#include    <conio.h>
+#include    <winsock2.h>
+#include    <windows.h>
+
+#pragma        comment (lib, "ws2_32")
+
+int main(void)
+{
+    using            std::cout;
+    using            std::cerr;
+    using            std::endl;
+
+    WSADATA            wd;
+    SOCKET            sock;
+    char            buf[65535];
+    int                nRet, nSize;
+    SOCKADDR_IN        saddr;
+
+    if((nRet = WSAStartup(MAKEWORD(2, 0),&wd)) != 0){
+        cerr << "WSAStartup fail with code " << nRet << endl;
+        return -1;
+    }
+    sock = socket (AF_INET, SOCK_DGRAM, IPPROTO_UDP);
+    if(sock == INVALID_SOCKET){
+        cerr << "socket fail with code " << WSAGetLastError() << endl;
+        return -3;
+    }
+    ZeroMemory(&saddr, sizeof(SOCKADDR_IN));
+    saddr.sin_addr.s_addr = htonl(INADDR_ANY);
+    saddr.sin_family = AF_INET;
+    saddr.sin_port = htons(5678);
+    if(bind(sock, reinterpret_cast<SOCKADDR*>(&saddr), sizeof(SOCKADDR_IN)) != SOCKET_ERROR)
+    {
+        while(1){
+            nSize = sizeof(SOCKADDR_IN);
+            nRet = recvfrom(sock, buf, 65535, 0, reinterpret_cast<SOCKADDR*>(&saddr), &nSize);
+            if(nRet == SOCKET_ERROR){
+                cerr << "recvfrom fail with code " << WSAGetLastError() << endl;
+                continue;
+            } else {
+                cout << "Recieved " << nRet << " bytes from " << inet_ntoa(saddr.sin_addr) 
+                    << ":" << ntohs(saddr.sin_port) << endl;
+            }
+        }
+    }else{
+        cerr << "bind fail with code " << WSAGetLastError() << endl;
+    }
+    closesocket(sock);
+    WSACleanup ();
+    return 0;
+}
+ 
+
+
+клиент:#include    <iostream>
+#include    <conio.h>
+#include    <winsock2.h>
+#include    <windows.h>
+
+#pragma        comment (lib, "ws2_32")
+
+int main(void)
+{
+    using            std::cout;
+    using            std::cerr;
+    using            std::endl;
+
+    WSADATA            wd;
+    SOCKET            sock;
+    int                nRet;
+    SOCKADDR_IN        saddr;
+
+    if((nRet = WSAStartup(MAKEWORD(2, 0),&wd)) != 0){
+        cerr << "WSAStartup fail with code " << nRet << endl;
+        return -1;
+    }
+    sock = socket (AF_INET, SOCK_DGRAM, IPPROTO_UDP);
+    if(sock == INVALID_SOCKET){
+        cerr << "socket fail with code " << WSAGetLastError() << endl;
+        return -2;
+    }
+    ZeroMemory(&saddr, sizeof(SOCKADDR_IN));
+    saddr.sin_addr.s_addr = htonl(INADDR_LOOPBACK);
+    saddr.sin_family = AF_INET;
+    saddr.sin_port = htons(5678);
+    nRet = connect(sock, reinterpret_cast<SOCKADDR*>(&saddr), sizeof(SOCKADDR_IN));
+    if(nRet == SOCKET_ERROR){
+        cerr << "connect fail with code " << WSAGetLastError() << endl;
+    }else {
+        send(sock, "Hello!", 6, 0);
+    }
+    closesocket(sock);
+    WSACleanup ();
+    return 0;
+}
+ 

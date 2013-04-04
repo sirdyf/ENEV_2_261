@@ -1,0 +1,46 @@
+15:56:27_911_00000524: Debug: WinMain starting..
+15:56:28_302_00000524: Debug: WinMain started end
+15:56:28_302_00000524: Debug: World Init...
+15:56:28_333_00000524: Debug: ...End World Init
+15:56:28_333_00000524: Debug: netClient.Init()
+15:56:28_333_00000524: Debug: d:\WORK\ENEV_2_257\Client\config.ini
+Server:10.71.21.15656
+Client:10.71.21.15657
+15:56:28_333_00000524: Debug: netClient.Run()
+15:56:28_333_00000524: Debug: Starting threads...
+
+15:56:28_348_00000524: Debug: ...thread starting end.
+	Thread1-088D9F10 Thread2-088D9F58
+15:56:28_364_00000524: Debug: Start Main loop
+15:56:28_473_00000e10: Debug: Thread _send_ Server IP-10.71.21.1port:5656
+15:56:28_489_00000e10: Debug: thread _send_ main loop started, time sleep=500
+15:56:28_489_00000c88: Debug: _recv_ Client IP-10.71.21.1port:5657 (BIND - ok)
+15:56:28_489_00000c88: Debug: _recv_ main loop started
+15:56:28_489_00000c88: Debug: _recv_ Send echo packet to server size=24
+15:56:28_661_00000c88: Debug: Client registered. UIN=41
+15:56:30_067_00000c88: Debug: _recv_ Send echo packet to server size=24
+15:56:31_473_00000c88: Debug: _recv_ Send echo packet to server size=24
+15:56:32_864_00000c88: Debug: _recv_ Send echo packet to server size=24
+15:56:34_270_00000c88: Debug: _recv_ Send echo packet to server size=24
+15:56:35_661_00000c88: Debug: _recv_ Send echo packet to server size=24
+15:56:37_067_00000c88: Debug: _recv_ Send echo packet to server size=24
+15:56:38_458_00000c88: Debug: _recv_ Send echo packet to server size=24
+15:56:39_864_00000c88: Debug: _recv_ Send echo packet to server size=24
+15:56:41_255_00000c88: Debug: _recv_ Send echo packet to server size=24
+15:56:42_661_00000c88: Debug: _recv_ Send echo packet to server size=24
+15:56:44_052_00000c88: Debug: _recv_ Send echo packet to server size=24
+15:56:45_458_00000c88: Debug: _recv_ Send echo packet to server size=24
+15:56:46_849_00000c88: Debug: _recv_ Send echo packet to server size=24
+15:56:48_255_00000c88: Debug: _recv_ Send echo packet to server size=24
+15:56:48_880_00000524: Debug: End Main loop
+15:56:48_880_00000524: Debug: World->Destroy()
+15:56:48_880_00000524: Debug: netClient.Stop()
+15:56:48_880_00000524: Debug: Wait threads end..
+15:56:50_442_00000e10: WARNING: Try unlock recv thread-send 0 byte..
+15:56:50_442_00000524: Debug: ..thread ended
+15:56:50_442_00000524: Debug: netClient.Release()
+15:56:50_442_00000524: WARNING: WSACleanup()!
+15:56:50_599_00000524: Debug: Scene deleted
+15:56:50_599_00000524: Debug: World destroy
+15:56:50_630_00000524: Debug: Windows destroy
+15:56:50_630_00000524: Debug: EXIT

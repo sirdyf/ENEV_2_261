@@ -1,0 +1,16 @@
+uin name dest cost tlevel types
+1 MINE мины 20.5 0 0
+2 MISSILE ракета 30.5 0 1
+3 LARGE_CARGO_BAY грузовой_отсек 400 0 2
+4 ECM_SYSTEM противоракетная_система 600 2 3
+5 PULSE_LASER пульсирующий_лазер 400 3 3
+6 BEAM_LASER лучевой_лазер 1000 4 3
+7 MINING_LASER технологический_лазер 800 10 3
+8 MILITARY_LASER военный_лазер 6000 10 3
+9 FUEL_SCOOPS сборники_топлива 525 5 4
+10 ESCAPE_CAPSULE спасательная_капсула 1000 6 5
+11 ENERGY_BOMB энергетическая_бомба 900 7 6
+12 EXTRA_ENERGY_UNIT дополнительный_энергоблок 1500 8 7
+13 DOCKING_COMPUTER стыковочный_компьютер 1500 9 8
+14 GALACTIC_HYPERDRIVE галактический_гиперпривод 5000 10 9
+ * Total 14

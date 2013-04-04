@@ -1,0 +1,30 @@
+11:59:20_327_00000930: Debug: new AI_Global()
+11:59:20_358_00000930: Debug: AI Global init
+
+11:59:20_421_00000930: Debug: netServer.Init()
+11:59:20_421_00000930: Debug: tNetworkServer::Init()
+11:59:20_421_00000930: Debug: d:\WORK\ENEV_2_258\Server\config.ini10.71.21.1
+11:59:20_436_00000930: Debug: WSAStartup() - OK
+11:59:20_436_00000930: Debug: netServer.Run()
+11:59:20_436_00000930: Debug: 	Thread starting..
+11:59:20_436_00000930: Debug: 	..threads started
+11:59:20_452_00000930: Debug: Enter main loop
+11:59:20_483_000004d4: Debug: Thread for _recv_ data started.
+11:59:20_639_000004d4: Debug: 	Interface:10.71.21.1 Server port-5656(BIND)
+11:59:20_733_00000fc4: Debug: Thread for _send_ data started.
+
+11:59:28_356_000004d4: Debug: New client from:10.71.21.1 port:5657
+12:00:10_860_00000930: Debug: Leave main loop
+12:00:10_860_00000930: Debug: netServer.Stop()
+12:00:11_094_00000fc4: Debug: Unlock _recv_ thread...
+
+12:00:11_094_000004d4: WARNING: _recv_ recived 0 byte
+12:00:11_094_00000fc4: Debug: Thread _send_ is end.
+
+12:00:11_094_000004d4: Debug: Thread _recv_ is end.
+
+12:00:11_125_00000930: Debug: 	Thread stoped
+12:00:11_125_00000930: Debug: netServer.Destroy()
+12:00:11_141_00000930: WARNING: WSACleanup()!
+12:00:11_141_00000930: Debug: Delete pEng.
+

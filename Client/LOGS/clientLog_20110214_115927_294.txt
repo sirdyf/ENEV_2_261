@@ -1,0 +1,45 @@
+11:59:27_294_00000b98: Debug: WinMain starting..
+11:59:28_122_00000b98: Debug: WinMain started end
+11:59:28_122_00000b98: Debug: World Init...
+11:59:28_153_00000b98: Debug: ...End World Init
+11:59:28_153_00000b98: Debug: netClient.Init()
+11:59:28_168_00000b98: Debug: d:\WORK\ENEV_2_258\Client\config.ini
+Server:10.71.21.15656
+Client:10.71.21.15657
+11:59:28_168_00000b98: Debug: netClient.Run()
+11:59:28_168_00000b98: Debug: Starting threads...
+
+11:59:28_184_00000b98: Debug: ...thread starting end.
+	Thread1-088D9F10 Thread2-088D9F58
+11:59:28_200_00000b98: Debug: Start Main loop
+11:59:28_309_00000768: Debug: Thread _send_ Server IP-10.71.21.1port:5656
+11:59:28_309_00000768: Debug: thread _send_ main loop started, time sleep=500
+11:59:28_356_00000f1c: Debug: _recv_ Client IP-10.71.21.1port:5657 (BIND - ok)
+11:59:28_356_00000f1c: Debug: _recv_ main loop started
+11:59:28_356_00000f1c: Debug: _recv_ Send echo packet to server size=24
+11:59:28_434_00000f1c: Debug: Client registered. UIN=41
+11:59:34_042_00000f1c: Debug: _recv_ Send echo packet to server size=24
+11:59:39_634_00000f1c: Debug: _recv_ Send echo packet to server size=24
+11:59:45_226_00000f1c: Debug: _recv_ Send echo packet to server size=24
+11:59:50_818_00000f1c: Debug: _recv_ Send echo packet to server size=24
+11:59:56_410_00000f1c: Debug: _recv_ Send echo packet to server size=24
+12:00:02_003_00000f1c: Debug: _recv_ Send echo packet to server size=24
+12:00:07_595_00000f1c: Debug: _recv_ Send echo packet to server size=24
+12:00:14_733_00000768: WARNING: thread _send_ timeSendToNAT > 3sec!
+12:00:14_733_00000768: WARNING: Try unlock recv thread-send 0 byte..
+12:00:14_733_00000f1c: WARNING: _recv_ recived 0 byte
+12:00:16_108_00000b98: Debug: End Main loop
+12:00:16_108_00000b98: Debug: World->Destroy()
+12:00:16_108_00000b98: Debug: netClient.Stop()
+12:00:16_108_00000b98: Debug: Wait threads end..
+12:00:16_530_00000768: WARNING: Try unlock recv thread-send 0 byte..
+12:00:16_530_00000f1c: WARNING: _recv_ recived 0 byte
+12:00:16_530_00000f1c: WARNING: Thread _recv_ end.
+12:00:18_529_00000768: Debug: _send_ thread end.
+12:00:18_529_00000b98: Debug: ..thread ended
+12:00:18_529_00000b98: Debug: netClient.Release()
+12:00:18_529_00000b98: WARNING: WSACleanup()!
+12:00:18_654_00000b98: Debug: Scene deleted
+12:00:18_654_00000b98: Debug: World destroy
+12:00:18_685_00000b98: Debug: Windows destroy
+12:00:18_685_00000b98: Debug: EXIT

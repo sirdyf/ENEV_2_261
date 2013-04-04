@@ -1,0 +1,1 @@
+*.lib,*.ncb,*.ilk,*.suo,debug,release

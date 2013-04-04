@@ -1,0 +1,124 @@
+10:17:40_890_00000a94: Debug: new AI_Global()
+10:17:40_890_00000a94: Debug: AI Global init
+
+10:17:40_890_00000a94: Debug: netServer.Init()
+10:17:40_905_00000a94: Debug: tNetworkServer::Init()
+10:17:40_905_00000a94: Debug: d:\WORK\ENEV_2_257\Server\config.ini10.71.21.1
+10:17:40_905_00000a94: Debug: WSAStartup() - OK
+10:17:40_905_00000a94: Debug: netServer.Run()
+10:17:40_905_00000a94: Debug: 	Thread starting..
+10:17:40_905_00000a94: Debug: 	..threads started
+10:17:40_921_00000a94: Debug: Enter main loop
+10:17:40_952_0000037c: Debug: Thread for _recv_ data started.
+10:17:41_045_0000037c: Debug: 	Interface:10.71.21.1 Server port-5656(BIND)
+10:17:41_201_000003e4: Debug: Thread for _send_ data started.
+
+10:17:41_217_000003e4: Debug(1): tNetworkServer::GetNetworkMessage() i=0
+10:17:41_918_000003e4: Debug(1): tNetworkServer::GetNetworkMessage() i=0
+10:17:42_620_000003e4: Debug(1): tNetworkServer::GetNetworkMessage() i=0
+10:17:43_305_000003e4: Debug(1): tNetworkServer::GetNetworkMessage() i=0
+10:17:44_007_000003e4: Debug(1): tNetworkServer::GetNetworkMessage() i=0
+10:17:44_428_0000037c: Debug(1): _recv_ data from:10.71.21.1 port:5657 size:24
+10:17:44_428_0000037c: Debug(1): tNetworkServer::CheckEchoClient()
+10:17:44_428_0000037c: Debug(1): Echo(126)
+10:17:44_428_0000037c: Debug: New client from:10.71.21.1 port:5657
+10:17:44_708_000003e4: Debug(1): tNetworkServer::GetNetworkMessage() i=0
+10:17:44_708_000003e4: Debug(1): typeOfService=128
+10:17:44_708_000003e4: Debug(1): client data size:0+tNetInfo:24+sockaddr:16=40
+10:17:44_708_000003e4: Debug(1): _send_ data to:10.71.21.1 port:5657 size:24
+10:17:44_708_000003e4: Debug(1): tNetworkServer::GetNetworkMessage() i=5
+10:17:44_926_0000037c: Debug(1): _recv_ data from:10.71.21.1 port:1307 size:24
+10:17:44_926_0000037c: Debug(1): recived 128 - work mode,client uin=41
+10:17:44_926_0000037c: Debug(1): Work data from client:10.71.21.1 port:1307
+10:17:44_926_0000037c: Debug(1): not have data for gm client.
+10:17:45_410_000003e4: Debug(1): tNetworkServer::GetNetworkMessage() i=0
+10:17:45_410_000003e4: Debug(1): typeOfService=128
+10:17:45_410_000003e4: Debug(1): client data size:0+tNetInfo:24+sockaddr:16=40
+10:17:45_410_000003e4: Debug(1): _send_ data to:10.71.21.1 port:5657 size:24
+10:17:45_410_000003e4: Debug(1): tNetworkServer::GetNetworkMessage() i=5
+10:17:45_410_0000037c: Debug(1): _recv_ data from:10.71.21.1 port:1307 size:24
+10:17:45_410_0000037c: Debug(1): recived 128 - work mode,client uin=41
+10:17:45_410_0000037c: Debug(1): Work data from client:10.71.21.1 port:1307
+10:17:45_410_0000037c: Debug(1): not have data for gm client.
+10:17:45_908_0000037c: Debug(1): _recv_ data from:10.71.21.1 port:1307 size:24
+10:17:45_908_0000037c: Debug(1): recived 128 - work mode,client uin=41
+10:17:45_908_0000037c: Debug(1): Work data from client:10.71.21.1 port:1307
+10:17:45_908_0000037c: Debug(1): not have data for gm client.
+10:17:46_095_000003e4: Debug(1): tNetworkServer::GetNetworkMessage() i=0
+10:17:46_095_000003e4: Debug(1): typeOfService=128
+10:17:46_095_000003e4: Debug(1): client data size:0+tNetInfo:24+sockaddr:16=40
+10:17:46_095_000003e4: Debug(1): _send_ data to:10.71.21.1 port:5657 size:24
+10:17:46_095_000003e4: Debug(1): tNetworkServer::GetNetworkMessage() i=5
+10:17:46_111_0000037c: Debug(1): _recv_ data from:10.71.21.1 port:5657 size:24
+10:17:46_111_0000037c: Debug(1): tNetworkServer::CheckEchoClient()
+10:17:46_111_0000037c: Debug(1): Echo(126)
+10:17:46_111_0000037c: Debug(1): standart echo(126) client uin=41
+10:17:46_407_0000037c: Debug(1): _recv_ data from:10.71.21.1 port:1307 size:24
+10:17:46_407_0000037c: Debug(1): recived 128 - work mode,client uin=41
+10:17:46_407_0000037c: Debug(1): Work data from client:10.71.21.1 port:1307
+10:17:46_407_0000037c: Debug(1): not have data for gm client.
+10:17:46_797_000003e4: Debug(1): tNetworkServer::GetNetworkMessage() i=0
+10:17:46_797_000003e4: Debug(1): typeOfService=128
+10:17:46_797_000003e4: Debug(1): client data size:0+tNetInfo:24+sockaddr:16=40
+10:17:46_797_000003e4: Debug(1): _send_ data to:10.71.21.1 port:5657 size:24
+10:17:46_797_000003e4: Debug(1): tNetworkServer::GetNetworkMessage() i=5
+10:17:46_906_0000037c: Debug(1): _recv_ data from:10.71.21.1 port:1307 size:24
+10:17:46_906_0000037c: Debug(1): recived 128 - work mode,client uin=41
+10:17:46_906_0000037c: Debug(1): Work data from client:10.71.21.1 port:1307
+10:17:46_906_0000037c: Debug(1): not have data for gm client.
+10:17:47_405_0000037c: Debug(1): _recv_ data from:10.71.21.1 port:1307 size:24
+10:17:47_405_0000037c: Debug(1): recived 128 - work mode,client uin=41
+10:17:47_405_0000037c: Debug(1): Work data from client:10.71.21.1 port:1307
+10:17:47_405_0000037c: Debug(1): not have data for gm client.
+10:17:47_498_000003e4: Debug(1): tNetworkServer::GetNetworkMessage() i=0
+10:17:47_498_000003e4: Debug(1): typeOfService=128
+10:17:47_498_000003e4: Debug(1): client data size:0+tNetInfo:24+sockaddr:16=40
+10:17:47_498_000003e4: Debug(1): _send_ data to:10.71.21.1 port:5657 size:24
+10:17:47_498_000003e4: Debug(1): tNetworkServer::GetNetworkMessage() i=5
+10:17:47_498_0000037c: Debug(1): _recv_ data from:10.71.21.1 port:5657 size:24
+10:17:47_498_0000037c: Debug(1): tNetworkServer::CheckEchoClient()
+10:17:47_498_0000037c: Debug(1): Echo(126)
+10:17:47_498_0000037c: Debug(1): standart echo(126) client uin=41
+10:17:47_903_0000037c: Debug(1): _recv_ data from:10.71.21.1 port:1307 size:24
+10:17:47_903_0000037c: Debug(1): recived 128 - work mode,client uin=41
+10:17:47_903_0000037c: Debug(1): Work data from client:10.71.21.1 port:1307
+10:17:47_903_0000037c: Debug(1): not have data for gm client.
+10:17:48_199_000003e4: Debug(1): tNetworkServer::GetNetworkMessage() i=0
+10:17:48_199_000003e4: Debug(1): typeOfService=128
+10:17:48_199_000003e4: Debug(1): client data size:0+tNetInfo:24+sockaddr:16=40
+10:17:48_199_000003e4: Debug(1): _send_ data to:10.71.21.1 port:5657 size:24
+10:17:48_199_000003e4: Debug(1): tNetworkServer::GetNetworkMessage() i=5
+10:17:48_402_0000037c: Debug(1): _recv_ data from:10.71.21.1 port:1307 size:24
+10:17:48_402_0000037c: Debug(1): recived 128 - work mode,client uin=41
+10:17:48_402_0000037c: Debug(1): Work data from client:10.71.21.1 port:1307
+10:17:48_402_0000037c: Debug(1): not have data for gm client.
+10:17:48_885_000003e4: Debug(1): tNetworkServer::GetNetworkMessage() i=0
+10:17:48_885_000003e4: Debug(1): typeOfService=128
+10:17:48_885_000003e4: Debug(1): client data size:0+tNetInfo:24+sockaddr:16=40
+10:17:48_885_000003e4: Debug(1): _send_ data to:10.71.21.1 port:5657 size:24
+10:17:48_885_000003e4: Debug(1): tNetworkServer::GetNetworkMessage() i=5
+10:17:49_587_000003e4: Debug(1): tNetworkServer::GetNetworkMessage() i=0
+10:17:49_587_000003e4: Debug(1): typeOfService=128
+10:17:49_587_000003e4: Debug(1): client data size:0+tNetInfo:24+sockaddr:16=40
+10:17:49_587_000003e4: Debug(1): _send_ data to:10.71.21.1 port:5657 size:24
+10:17:49_587_000003e4: Debug(1): tNetworkServer::GetNetworkMessage() i=5
+10:17:50_288_000003e4: Debug(1): tNetworkServer::GetNetworkMessage() i=0
+10:17:50_288_000003e4: Debug(1): typeOfService=128
+10:17:50_288_000003e4: Debug(1): client data size:0+tNetInfo:24+sockaddr:16=40
+10:17:50_288_000003e4: Debug(1): _send_ data to:10.71.21.1 port:5657 size:24
+10:17:50_288_000003e4: Debug(1): tNetworkServer::GetNetworkMessage() i=5
+10:17:50_989_000003e4: Debug(1): tNetworkServer::GetNetworkMessage() i=0
+10:17:50_989_000003e4: Debug(1): typeOfService=128
+10:17:50_989_000003e4: Debug(1): client data size:0+tNetInfo:24+sockaddr:16=40
+10:17:50_989_000003e4: Debug(1): _send_ data to:10.71.21.1 port:5657 size:24
+10:17:50_989_000003e4: Debug(1): tNetworkServer::GetNetworkMessage() i=5
+10:17:51_675_000003e4: Debug(1): tNetworkServer::GetNetworkMessage() i=0
+10:17:51_675_000003e4: Debug(1): typeOfService=128
+10:17:51_675_000003e4: Debug(1): client data size:0+tNetInfo:24+sockaddr:16=40
+10:17:51_675_000003e4: Debug(1): _send_ data to:10.71.21.1 port:5657 size:24
+10:17:51_675_000003e4: Debug(1): tNetworkServer::GetNetworkMessage() i=5
+10:17:52_376_000003e4: Debug(1): tNetworkServer::GetNetworkMessage() i=0
+10:17:52_376_000003e4: Debug(1): typeOfService=128
+10:17:52_376_000003e4: Debug(1): client data size:0+tNetInfo:24+sockaddr:16=40
+10:17:52_376_000003e4: Debug(1): _send_ data to:10.71.21.1 port:5657 size:24
+10:17:52_376_000003e4: Debug(1): tNetworkServer::GetNetworkMessage() i=5

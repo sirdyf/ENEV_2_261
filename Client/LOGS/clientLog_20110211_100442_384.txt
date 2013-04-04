@@ -1,0 +1,15 @@
+10:04:42_384_000009c8: Debug: WinMain starting..
+10:04:42_603_000009c8: Debug: WinMain started end
+10:04:42_603_000009c8: Debug: World Init...
+10:04:42_603_000009c8: Debug: ...End World Init
+10:04:42_603_000009c8: Debug: netClient.Init()
+10:04:42_603_000009c8: Debug: d:\WORK\ENEV_2_257\Client\config.ini
+Server:10.71.21.15656
+Client:10.71.21.15657
+10:04:42_618_000009c8: Debug: netClient.Run()
+10:04:42_618_000009c8: Debug: Starting threads...
+
+10:04:42_665_000009c8: Debug: ...thread starting end.
+	Thread1-088D9438 Thread2-088D9480
+10:04:42_665_000009c8: Debug: Start Main loop
+10:04:42_759_00000fdc: Debug: Thread _send_ Server IP-10.71.21.1port:5656

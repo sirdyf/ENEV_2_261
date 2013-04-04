@@ -1,0 +1,5 @@
+16:09:46_701_000005a0: Debug: Test Level 0
+16:09:46_716_000005a0: Debug(1): Test Level 1
+16:09:46_716_000005a0: Debug: Test dedug2
+16:09:46_716_000005a0: WARNING: Test warning3
+16:09:46_716_000005a0: ERROR: Test error4

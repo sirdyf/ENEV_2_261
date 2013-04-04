@@ -1,0 +1,28 @@
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual C++ Express 2005
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SDEClient", "main.vcproj", "{2055776F-1F85-44C3-82CE-581E35BF25B3}"
+	ProjectSection(ProjectDependencies) = postProject
+		{F0E9F9E7-6C55-4EF0-BE71-EB61D7CE7447} = {F0E9F9E7-6C55-4EF0-BE71-EB61D7CE7447}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Graph", "Graph\graph.vcproj", "{F0E9F9E7-6C55-4EF0-BE71-EB61D7CE7447}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2055776F-1F85-44C3-82CE-581E35BF25B3}.Debug|Win32.ActiveCfg = Debug|Win32
+		{2055776F-1F85-44C3-82CE-581E35BF25B3}.Debug|Win32.Build.0 = Debug|Win32
+		{2055776F-1F85-44C3-82CE-581E35BF25B3}.Release|Win32.ActiveCfg = Release|Win32
+		{2055776F-1F85-44C3-82CE-581E35BF25B3}.Release|Win32.Build.0 = Release|Win32
+		{F0E9F9E7-6C55-4EF0-BE71-EB61D7CE7447}.Debug|Win32.ActiveCfg = Debug|Win32
+		{F0E9F9E7-6C55-4EF0-BE71-EB61D7CE7447}.Debug|Win32.Build.0 = Debug|Win32
+		{F0E9F9E7-6C55-4EF0-BE71-EB61D7CE7447}.Release|Win32.ActiveCfg = Release|Win32
+		{F0E9F9E7-6C55-4EF0-BE71-EB61D7CE7447}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

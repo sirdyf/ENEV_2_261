@@ -1,0 +1,2 @@
+16:09:46_716_000005a0: ERROR: Test error5
+16:09:46_716_000005a0: ERROR: same error

@@ -1,0 +1,138 @@
+10:02:37_135_00000a58: Debug: WinMain starting..
+10:02:37_416_00000a58: Debug: WinMain started end
+10:02:37_416_00000a58: Debug: World Init...
+10:02:37_432_00000a58: Debug: ...End World Init
+10:02:37_432_00000a58: Debug: netClient.Init()
+10:02:37_432_00000a58: Debug: d:\WORK\ENEV_2_257\Client\config.ini
+Server:10.71.21.15656
+Client:10.71.21.15657
+10:02:37_432_00000a58: Debug: netClient.Run()
+10:02:37_432_00000a58: Debug: Starting threads...
+
+10:02:37_463_00000a58: Debug: ...thread starting end.
+	Thread1-088D9438 Thread2-088D9480
+10:02:37_463_00000a58: Debug: Start Main loop
+10:02:37_587_00000f6c: Debug: Thread _send_ Server IP-10.71.21.1port:5656
+10:02:37_603_00000f6c: Debug: thread _send_ main loop started, time sleep=100
+10:02:37_603_00000f28: Debug: _recv_ Client IP-10.71.21.1port:5657 (BIND - ok)
+10:02:37_603_00000f28: Debug: _recv_ main loop started
+10:02:37_603_00000f28: Debug: _recv_ Send echo packet to server size=24
+10:02:37_650_00000f28: Debug(1): _recv_ get data
+10:02:37_650_00000f28: Debug: Recived work msg(128) uin=41
+10:02:37_696_00000f6c: Debug(1): _send_ tNetworkClient::SendNetMessage()
+10:02:37_696_00000f6c: Debug(1): _send_ data send to10.71.21.1 port:5656
+10:02:37_790_00000f6c: Debug(1): _send_ tNetworkClient::SendNetMessage()
+10:02:37_790_00000f6c: Debug(1): _send_ data send to10.71.21.1 port:5656
+10:02:37_899_00000f6c: Debug(1): _send_ tNetworkClient::SendNetMessage()
+10:02:37_899_00000f6c: Debug(1): _send_ data send to10.71.21.1 port:5656
+10:02:37_993_00000f6c: Debug(1): _send_ tNetworkClient::SendNetMessage()
+10:02:37_993_00000f6c: Debug(1): _send_ data send to10.71.21.1 port:5656
+10:02:38_102_00000f6c: Debug(1): _send_ tNetworkClient::SendNetMessage()
+10:02:38_102_00000f6c: Debug(1): _send_ data send to10.71.21.1 port:5656
+10:02:38_195_00000f6c: Debug(1): _send_ tNetworkClient::SendNetMessage()
+10:02:38_195_00000f6c: Debug(1): _send_ data send to10.71.21.1 port:5656
+10:02:38_289_00000f6c: Debug(1): _send_ tNetworkClient::SendNetMessage()
+10:02:38_289_00000f6c: Debug(1): _send_ data send to10.71.21.1 port:5656
+10:02:38_351_00000f28: Debug(1): _recv_ get data
+10:02:38_351_00000f28: Debug: Recived work msg(128) uin=41
+10:02:38_398_00000f6c: Debug(1): _send_ tNetworkClient::SendNetMessage()
+10:02:38_398_00000f6c: Debug(1): _send_ data send to10.71.21.1 port:5656
+10:02:38_491_00000f6c: Debug(1): _send_ tNetworkClient::SendNetMessage()
+10:02:38_491_00000f6c: Debug(1): _send_ data send to10.71.21.1 port:5656
+10:02:38_600_00000f6c: Debug(1): _send_ tNetworkClient::SendNetMessage()
+10:02:38_600_00000f6c: Debug(1): _send_ data send to10.71.21.1 port:5656
+10:02:38_694_00000f6c: Debug(1): _send_ tNetworkClient::SendNetMessage()
+10:02:38_694_00000f6c: Debug(1): _send_ data send to10.71.21.1 port:5656
+10:02:38_787_00000f6c: Debug(1): _send_ tNetworkClient::SendNetMessage()
+10:02:38_787_00000f6c: Debug(1): _send_ data send to10.71.21.1 port:5656
+10:02:38_897_00000f6c: Debug(1): _send_ tNetworkClient::SendNetMessage()
+10:02:38_897_00000f6c: Debug(1): _send_ data send to10.71.21.1 port:5656
+10:02:38_990_00000f6c: Debug(1): _send_ tNetworkClient::SendNetMessage()
+10:02:38_990_00000f6c: Debug(1): _send_ data send to10.71.21.1 port:5656
+10:02:39_052_00000f28: Debug(1): _recv_ get data
+10:02:39_052_00000f28: Debug: Recived work msg(128) uin=41
+10:02:39_052_00000f28: Debug: _recv_ Send echo packet to server size=24
+10:02:39_084_00000f6c: Debug(1): _send_ tNetworkClient::SendNetMessage()
+10:02:39_084_00000f6c: Debug(1): _send_ data send to10.71.21.1 port:5656
+10:02:39_193_00000f6c: Debug(1): _send_ tNetworkClient::SendNetMessage()
+10:02:39_193_00000f6c: Debug(1): _send_ data send to10.71.21.1 port:5656
+10:02:39_286_00000f6c: Debug(1): _send_ tNetworkClient::SendNetMessage()
+10:02:39_286_00000f6c: Debug(1): _send_ data send to10.71.21.1 port:5656
+10:02:39_395_00000f6c: Debug(1): _send_ tNetworkClient::SendNetMessage()
+10:02:39_395_00000f6c: Debug(1): _send_ data send to10.71.21.1 port:5656
+10:02:39_489_00000f6c: Debug(1): _send_ tNetworkClient::SendNetMessage()
+10:02:39_489_00000f6c: Debug(1): _send_ data send to10.71.21.1 port:5656
+10:02:39_582_00000f6c: Debug(1): _send_ tNetworkClient::SendNetMessage()
+10:02:39_582_00000f6c: Debug(1): _send_ data send to10.71.21.1 port:5656
+10:02:39_691_00000f6c: Debug(1): _send_ tNetworkClient::SendNetMessage()
+10:02:39_691_00000f6c: Debug(1): _send_ data send to10.71.21.1 port:5656
+10:02:39_754_00000f28: Debug(1): _recv_ get data
+10:02:39_754_00000f28: Debug: Recived work msg(128) uin=41
+10:02:39_785_00000f6c: Debug(1): _send_ tNetworkClient::SendNetMessage()
+10:02:39_785_00000f6c: Debug(1): _send_ data send to10.71.21.1 port:5656
+10:02:39_879_00000f6c: Debug(1): _send_ tNetworkClient::SendNetMessage()
+10:02:39_879_00000f6c: Debug(1): _send_ data send to10.71.21.1 port:5656
+10:02:39_988_00000f6c: Debug(1): _send_ tNetworkClient::SendNetMessage()
+10:02:39_988_00000f6c: Debug(1): _send_ data send to10.71.21.1 port:5656
+10:02:40_081_00000f6c: Debug(1): _send_ tNetworkClient::SendNetMessage()
+10:02:40_081_00000f6c: Debug(1): _send_ data send to10.71.21.1 port:5656
+10:02:40_190_00000f6c: Debug(1): _send_ tNetworkClient::SendNetMessage()
+10:02:40_190_00000f6c: Debug(1): _send_ data send to10.71.21.1 port:5656
+10:02:40_284_00000f6c: Debug(1): _send_ tNetworkClient::SendNetMessage()
+10:02:40_284_00000f6c: Debug(1): _send_ data send to10.71.21.1 port:5656
+10:02:40_377_00000f6c: Debug(1): _send_ tNetworkClient::SendNetMessage()
+10:02:40_377_00000f6c: Debug(1): _send_ data send to10.71.21.1 port:5656
+10:02:40_440_00000f28: Debug(1): _recv_ get data
+10:02:40_440_00000f28: Debug: Recived work msg(128) uin=41
+10:02:40_455_00000f28: Debug: _recv_ Send echo packet to server size=24
+10:02:40_486_00000f6c: Debug(1): _send_ tNetworkClient::SendNetMessage()
+10:02:40_486_00000f6c: Debug(1): _send_ data send to10.71.21.1 port:5656
+10:02:40_580_00000f6c: Debug(1): _send_ tNetworkClient::SendNetMessage()
+10:02:40_580_00000f6c: Debug(1): _send_ data send to10.71.21.1 port:5656
+10:02:40_689_00000f6c: Debug(1): _send_ tNetworkClient::SendNetMessage()
+10:02:40_689_00000f6c: Debug(1): _send_ data send to10.71.21.1 port:5656
+10:02:40_782_00000f6c: Debug(1): _send_ tNetworkClient::SendNetMessage()
+10:02:40_782_00000f6c: Debug(1): _send_ data send to10.71.21.1 port:5656
+10:02:40_876_00000f6c: Debug(1): _send_ tNetworkClient::SendNetMessage()
+10:02:40_876_00000f6c: Debug(1): _send_ data send to10.71.21.1 port:5656
+10:02:40_985_00000f6c: Debug(1): _send_ tNetworkClient::SendNetMessage()
+10:02:40_985_00000f6c: Debug(1): _send_ data send to10.71.21.1 port:5656
+10:02:41_079_00000f6c: Debug(1): _send_ tNetworkClient::SendNetMessage()
+10:02:41_079_00000f6c: Debug(1): _send_ data send to10.71.21.1 port:5656
+10:02:41_141_00000f28: Debug(1): _recv_ get data
+10:02:41_141_00000f28: Debug: Recived work msg(128) uin=41
+10:02:41_172_00000f6c: Debug(1): _send_ tNetworkClient::SendNetMessage()
+10:02:41_172_00000f6c: Debug(1): _send_ data send to10.71.21.1 port:5656
+10:02:41_281_00000f6c: Debug(1): _send_ tNetworkClient::SendNetMessage()
+10:02:41_281_00000f6c: Debug(1): _send_ data send to10.71.21.1 port:5656
+10:02:41_375_00000f6c: Debug(1): _send_ tNetworkClient::SendNetMessage()
+10:02:41_375_00000f6c: Debug(1): _send_ data send to10.71.21.1 port:5656
+10:02:41_484_00000f6c: Debug(1): _send_ tNetworkClient::SendNetMessage()
+10:02:41_484_00000f6c: Debug(1): _send_ data send to10.71.21.1 port:5656
+10:02:41_577_00000f6c: Debug(1): _send_ tNetworkClient::SendNetMessage()
+10:02:41_577_00000f6c: Debug(1): _send_ data send to10.71.21.1 port:5656
+10:02:41_671_00000f6c: Debug(1): _send_ tNetworkClient::SendNetMessage()
+10:02:41_671_00000f6c: Debug(1): _send_ data send to10.71.21.1 port:5656
+10:02:41_780_00000f6c: Debug(1): _send_ tNetworkClient::SendNetMessage()
+10:02:41_780_00000f6c: Debug(1): _send_ data send to10.71.21.1 port:5656
+10:02:41_842_00000f28: Debug(1): _recv_ get data
+10:02:41_842_00000f28: Debug: Recived work msg(128) uin=41
+10:02:41_842_00000f28: Debug: _recv_ Send echo packet to server size=24
+10:02:41_874_00000f6c: Debug(1): _send_ tNetworkClient::SendNetMessage()
+10:02:41_874_00000f6c: Debug(1): _send_ data send to10.71.21.1 port:5656
+10:02:41_967_00000f6c: Debug(1): _send_ tNetworkClient::SendNetMessage()
+10:02:41_967_00000f6c: Debug(1): _send_ data send to10.71.21.1 port:5656
+10:02:42_061_00000a58: Debug: End Main loop
+10:02:42_061_00000a58: Debug: World->Destroy()
+10:02:42_061_00000a58: Debug: netClient.Stop()
+10:02:42_061_00000a58: Debug: Wait threads end..
+10:02:42_544_00000f28: Debug(1): _recv_ get data
+10:02:42_544_00000f28: Debug: Recived work msg(128) uin=41
+10:02:43_572_00000f6c: WARNING: Try unlock recv thread-send 0 byte..
+10:02:43_572_00000a58: Debug: ..thread ended
+10:02:43_572_00000a58: Debug: netClient.Release()
+10:02:43_572_00000a58: WARNING: WSACleanup()!
+10:02:43_681_00000a58: Debug: Scene deleted
+10:02:43_681_00000a58: Debug: World destroy
+10:02:43_728_00000a58: Debug: Windows destroy
+10:02:43_728_00000a58: Debug: EXIT

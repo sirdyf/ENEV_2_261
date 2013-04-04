@@ -1,0 +1,31 @@
+VERTEXSHADER vs = 
+    decl
+    {   stream 0;
+        fvf xyz|diffuse;
+    }asm{
+        vs.1.1
+	; Transform to world+view+projection space
+        m4x4 r0, v0, c0
+        
+        ; Store output position
+        mov oPos, r0
+        ; Store output color
+	mov r5,c5
+	mov r6,c6
+	add r1,v0,c4
+	dp3 r1,r1,r1
+	rsq r1,r1
+	rcp r1,r1
+	mul r2,r1,r5
+	mov oD0, c6.rgb
+	mov oPts,c6.w
+	};
+technique t0
+{    pass p0
+    {   VertexShader = <vs>;
+        CullMode = None;
+        ColorArg1[0] = Texture;
+        ColorArg2[0] = Diffuse;
+        ColorOp[0] = SelectArg2;
+}}
+

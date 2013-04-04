@@ -1,0 +1,40 @@
+09:41:53_957_0000081c: Debug: WinMain starting..
+09:41:54_175_0000081c: Debug: WinMain started end
+09:41:54_175_0000081c: Debug: World Init...
+09:41:54_190_0000081c: Debug: ...End World Init
+09:41:54_190_0000081c: Debug: netClient.Init()
+09:41:54_190_0000081c: Debug: d:\WORK\ENEV_2_257\Client\config.ini
+Server:10.71.21.15656
+Client:10.71.21.15657
+09:41:54_206_0000081c: Debug: netClient.Run()
+09:41:54_206_0000081c: Debug: Starting threads...
+
+09:41:54_221_0000081c: Debug: ...thread starting end.
+	Thread1-088D9438 Thread2-088D9480
+09:41:54_221_0000081c: Debug: Start Main loop
+09:41:54_331_00000394: Debug: Thread _send_ Server IP-10.71.21.1port:5656
+09:41:54_346_00000394: Debug: thread _send_ main loop started, time sleep=100
+09:41:54_362_0000020c: Debug: _recv_ Client IP-10.71.21.1port:5657 (BIND - ok)
+09:41:54_362_0000020c: Debug: _recv_ main loop started
+09:41:54_362_0000020c: Debug: _recv_ Send echo packet to server size=24
+09:41:54_845_0000020c: Debug(1): _recv_ get data
+09:41:54_860_0000020c: Debug: Recived work msg(128) uin=41
+09:41:55_546_0000020c: Debug(1): _recv_ get data
+09:41:55_546_0000020c: Debug: Recived work msg(128) uin=41
+09:41:55_562_0000020c: Debug: _recv_ Send echo packet to server size=24
+09:41:56_248_0000020c: Debug(1): _recv_ get data
+09:41:56_248_0000020c: Debug: Recived work msg(128) uin=41
+09:41:56_528_0000081c: Debug: End Main loop
+09:41:56_528_0000081c: Debug: World->Destroy()
+09:41:56_528_0000081c: Debug: netClient.Stop()
+09:41:56_528_0000081c: Debug: Wait threads end..
+09:41:56_949_0000020c: Debug(1): _recv_ get data
+09:41:56_949_0000020c: Debug: Recived work msg(128) uin=41
+09:41:58_024_00000394: WARNING: Try unlock recv thread-send 0 byte..
+09:41:58_040_0000081c: Debug: ..thread ended
+09:41:58_040_0000081c: Debug: netClient.Release()
+09:41:58_040_0000081c: WARNING: WSACleanup()!
+09:41:58_149_0000081c: Debug: Scene deleted
+09:41:58_165_0000081c: Debug: World destroy
+09:41:58_180_0000081c: Debug: Windows destroy
+09:41:58_180_0000081c: Debug: EXIT

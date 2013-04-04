@@ -1,0 +1,129 @@
+STRUCT ShipEquipment
+	STRUCT engine
+		STRUCT Engine0
+			Name HyperDrive
+			Vmax 0.000000
+			DistOfHyperJamp 0.000000
+			HaveHyperJamp No
+			Massa 100.000000
+			InertionSTEP default
+			InertSpeedSTEP default
+			InertSpeedMAX 0.050000
+			Cost 2000.000000
+			TechLevel 1.000000
+		END
+		STRUCT Engine1
+			Name PlanetDrive
+			Vmax 0.000000
+			DistOfHyperJamp 0.000000
+			HaveHyperJamp No
+			Massa 30.000000
+			InertSpeedMAX 0.0500000
+			EngineClass 3.000000
+			Cost 2000.000000
+			TechLevel 1.000000
+		END
+		STRUCT Engine2
+			Name MegaDrive
+			Vmax 0.000000
+			DistOfHyperJamp 0.000000
+			HaveHyperJamp No
+			Massa 300.000000
+			InertionSTEP 1000.000000
+			InertSpeedSTEP default
+			InertSpeedMAX 0.150000
+			EngineClass 5.000000
+			Cost 2000.000000
+			TechLevel 1.000000
+		END
+		STRUCT Engine3
+			Name MissileDrive
+			Vmax 0.000000
+			DistOfHyperJamp 0.000000
+			HaveHyperJamp No
+			Massa 30.000000
+			InertionSTEP 1000.000000
+			InertSpeedSTEP default
+			InertSpeedMAX 0.200000
+			EngineClass 500.000000
+			Cost 2000.000000
+			TechLevel 1.000000
+		END
+	END
+	STRUCT weapon
+		STRUCT Weapon1
+			!Name BeamLaser
+			Uin 6.000000
+			Massa 20.000000
+			Distance 800.000000
+			Damage 100.000000
+			!Cost 2000.000000
+			!TechLevel 1
+		END
+		STRUCT Weapon2
+			!Name Missile
+			Uin 2.000000
+			Massa 10.000000
+			Distance 1500.000000
+			Damage 100.000000
+			!Cost 500.000000
+			!TechLevel 2
+		END
+		STRUCT Weapon3
+			!Name Mine
+			Uin 1.000000
+			Massa 10.000000
+			Distance 0.000000
+			Damage 100.000000
+			!Cost 500.000000
+			!TechLevel 2
+		END
+	END
+	STRUCT ship
+		STRUCT Ship1
+			Name KobraMK3
+			Massa 500.000000
+			MissileSlots 4.000000
+			Tonnage 200.000000
+			EngineClassMax 5.000000
+			Cost 2000.000000
+			TechLevel 1
+		END
+		STRUCT Ship2
+			Name Thargoid
+			Massa 15000.000000
+			MissileSlots 4.000000
+			Tonnage 5000.000000
+			EngineClassMax 8.000000
+			Cost 200000.000000
+			TechLevel 10
+		END
+		STRUCT Ship3
+			Name Krait
+			Massa 800.000000
+			MissileSlots 4.000000
+			Tonnage 500.000000
+			EngineClassMax 8.000000
+			Cost 9000.000000
+			TechLevel 10
+		END
+		STRUCT Ship4
+			Name Python
+			Massa 1500.000000
+			MissileSlots 4.000000
+			Tonnage 500.000000
+			EngineClassMax 8.000000
+			Cost 10000.000000
+			TechLevel 10
+		END
+		STRUCT Ship5
+			Name Viper
+			Massa 450.000000
+			MissileSlots 4.000000
+			Tonnage 100.000000
+			EngineClassMax 8.000000
+			Cost 12000.000000
+			TechLevel 10
+		END
+	END
+END STRUCT

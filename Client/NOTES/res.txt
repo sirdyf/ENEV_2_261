@@ -1,0 +1,59 @@
+/*--------------------------------------------------------------
+ Вывод
+--------------------------------------------------------------*/
+//Доработать tShipContainer(по аналогии tStarContainer)
+//доработать момент инициализации переменной - члена класса:
+//если класс имеет собственный счетчик >1, то при инициализации
+//переменной,ее счетчик должен начинаться не с 0, а с номера счетчика
+// базового класса.
+
+//(Пример:если был размножен базовый класс,а потом произошла инициализация
+//переменной-члена,то Release() базового класса уничтожат переменную
+//больше раз,чем она существует!!!)
+
+/*--------------------------------------------------------------
+ Главная функция игры
+--------------------------------------------------------------
+void Main(void){
+    try {
+		engine->InitRender(100,100,400,300);
+		engine->InitDirectInput();
+		World.Init();
+		
+		engine->Console->Visible=false;
+		engine->Back->Visible=false;
+//		effect1=engine->LoadEffect("Base\\Effects\\test.eff");
+        engine->SetEngineThread(Render);
+    } catch(tError &error) {
+        error.AddErrorHistory(" <-thread 0x%x",&Main);
+        throw;
+    }
+}
+--------------------------------------------------------------
+int APIENTRY WinMain(HINSTANCE hInstance,HINSTANCE hPrevInstance,LPSTR lpCmdLine,int nCmdShow){
+    try {
+        // Инициализация движка
+        engine->InitEngine();
+        // Установка задачи на выполнение
+        engine->SetEngineThread(Main);
+        // Запуск главного цикла
+        engine->RunEngine();
+        // Деинициализация движка
+        engine->ReleaseEngine();
+		World.Destroy();
+    }catch(tError &error){
+        error.AddErrorHistory(" <-WinMain <-Game.exe");
+        const char* errorMessage = error.GetErrorMessage();
+        // Выводим сообщение об ошибке в log-файл
+        engine->LogMessage("\n%s\n",errorMessage);
+        // Выводим сообщение об ошибке на экран
+        MessageBox(NULL,errorMessage,"Critical error!",MB_OK|MB_ICONERROR);
+
+        delete engine;
+		delete pEng;
+        return 1;
+    }
+	//delete pEng;
+    delete engine;
+    return 0;
+}*/
